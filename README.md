@@ -1,9 +1,23 @@
-# This console program generates random passwords based on user's symbols choice
+### CLI приложение для генерации пароля
 
-This program will aid you in:
+---
 
-* configuring what characters your password will be made from;
-* setting the length of your password;
-* calculating the entropy of generated password
-* calculating the entropy of entered password 
+#### Старт проекта:
+
+``` bash
+cd ./cmd/app
+go run app.go
+```
+
+---
+
+#### Функциональность
+
+Данное приложение позволяет пользователю:
+
+* Выбрать символы, из которых будет состоять пароль;
+* Установить длинну пароля;
+* Подсчитать эентропию созданного пароля;
+* Подсчитать эентропию введенного пользователя пароля.
+
 
